@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1661889300 source:c:\users\alves\desktop\exx_em_c\primeiro_exxc\main.c
+	<stdio.h>
+	<stdlib.h>
+
