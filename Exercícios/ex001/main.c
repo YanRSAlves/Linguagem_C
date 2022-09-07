@@ -8,12 +8,12 @@ int main()
     scanf("%d",&a);
 
         if (a == 0) {
-        printf(" %d e numero neutro ou pode se considerar ",a);
+        printf("\n%d e numero neutro ou pode se considerar ",a);
         }
         if ((a % 2) == 0){
-        printf("PAR\n");
+        printf("%d e PAR!\n",a);
             }else{
-            printf("IMPAR\n");
+            printf("%d e IMPAR!\n",a);
         }
 
 
