@@ -8,7 +8,8 @@ int main()
     scanf("%d",&a);
 
         if (a == 0) {
-        printf("\n%d e numero neutro ou pode se considerar ",a);
+        printf("\nVOCE DIGITOU O NUMERO 0, PODE SER CONSIDERADO NEUTRO OU PAR\n");
+        return 0;
         }
         if ((a % 2) == 0){
         printf("%d e PAR!\n",a);
