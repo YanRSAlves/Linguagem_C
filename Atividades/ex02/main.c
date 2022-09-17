@@ -1,16 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
 int main()
 {
+    setlocale(LC_ALL, "Portuguese");
+
+
     float x, y;
     int dc;
 
 
 
-    printf("====Descubra o X ou Y da funcao!====\n\n");
+    printf("\t\t\t\t####===========Descubra o X ou Y da função!==========####\n\n");
+    printf("\t\t\t\t####A função que estamos trabalhando é f(x,y)=3x+4y²!####\n\n");
 
-    printf("Voce sabe o valor de x digite 1 para sim ou 2 para n");
+    system("pause");
+
+    printf("\nVoce sabe o valor de x digite 1 para sim ou 2 para n: ");
     scanf("%d",&dc);
 
 
@@ -25,7 +32,7 @@ int main()
             //printf("\nDigite o y da funcao: ");
             //scanf("%f", &y);
         }else{
-            printf("\nVoce tinha que digitar s ou n! sue burrrruu\n\n\n");
+            printf("\n\nNÃO ENCONTRADA ESTA OPÇÃO!\n\n");
 
         }
 
