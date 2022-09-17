@@ -3,23 +3,38 @@
 
 int main()
 {
-    float x, f, y;
-
-    printf("====Descubra a funcao!====\n");
-
-    printf("\nDigite o X da funcao: ");
-    scanf("%f", &x);
-
-    printf("\nDigite o y da funcao: ");
-    scanf("%f", &y);
-
-    printf("\n\nEXECUTANDO TODAS POSSIBILIDADES...\n");
-    system("pause");
+    float x, y;
+    int dc;
 
 
-    f = 3*x+4*y*y;
 
-    printf("%.2f",f);
+    printf("====Descubra o X ou Y da funcao!====\n\n");
+
+    printf("Voce sabe o valor de x digite 1 para sim ou 2 para n");
+    scanf("%d",&dc);
+
+
+
+    if (dc == 1){
+            printf("SIMMMMMMMM");
+         //printf("\nDigite o X da funcao: ");
+         //scanf("%f", &x);
+    }else{
+        if(dc == 2){
+            printf("NAOOOOOOO");
+            //printf("\nDigite o y da funcao: ");
+            //scanf("%f", &y);
+        }else{
+            printf("\nVoce tinha que digitar s ou n! sue burrrruu\n\n\n");
+
+        }
+
+    }
+
+
+
+
+
 
 
 
