@@ -9,13 +9,39 @@ int main()
 
 
 
-     Escreva um programa que leia 4 valores (N1, N2, N3 e N4) referentes às quatro
-notas de um aluno. A seguir, se a média ponderada com pesos 2,3,4 e 1 para as
-respectivas provas for maior ou igual a 7, mostre uma mensagem: "Aluno foi
-aprovado". Se a nota for inferior a 5, mostrar uma mensagem: "Aluno foi reprovado".
-Se a média ficou entre 5 e 7, fazer a leitura de uma variável (EX) correspondente a
-nota de exame, recalcular a média (somar a nota do exame com a nota anterior e
-dividir por 2) e mostrar se o aluno foi ou não aprovado.
+    float nota1, nota2, nota3, nota4, media,EX, nfim;
+
+    printf("\t\t\tCALCULO DE MEDIA PONDERADA\n\n\n");
+
+
+
+    printf("Digite as quatro notas: ");
+    scanf("%f%f%f%f", &nota1, &nota2, &nota3, &nota4);
+
+    media = (nota1 * 2 + nota2 * 3 + nota3 * 4 + nota4 * 1) / 10
+    printf("Media ponderada: %.2f\n", media);
+
+
+    if (media >= 7) {
+        printf("Aluno foi aprovado\n");
+    }else {
+        if (media < 5) {
+            printf("Aluno foi reprovado");
+        }else {
+            if (media >=5 && media < 7) {
+                printf("Qual foi sua nota do exame? ");
+                scanf("%f",&EX);
+                nfim = (media+EX)/2;
+            }
+        }
+    }
+
+    if (nfim >= 7){
+        printf("Aluno aprovado\n");
+    }else {
+        printf("Aluno reprovado\n");
+    }
+
 
 
 
