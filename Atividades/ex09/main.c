@@ -12,7 +12,7 @@ int main()
 
 
     printf("Toda empresa foi escolhida para o novo reajuste salarial!\n");
-    printf("Completa seus dados:\n");
+    printf("Complete seus dados:\n");
     printf("Qual seu nome? \n");
     gets(nome);
     printf("Qual o valor do salário que você recebia? \n");

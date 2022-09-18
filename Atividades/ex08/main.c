@@ -9,9 +9,9 @@ int main()
     char escolha, nome[20];
     float salarioantigo, salariofinal;
 
-    printf("\t\t\t\tREAJUSTE GERAL\n\n\n");
+    printf("\t\t\t\tREAJUSTE SALÁRIAL DA EMPRESA FULANO \n\n\n");
 
-    printf("Qual seu nome? ");
+    printf("Informe seu nome? ");
     gets(nome);
 
     printf("\nQual era seu antigo salário? ");
@@ -31,22 +31,27 @@ int main()
         case '1' :
             salariofinal = salarioantigo+salarioantigo*10/100;
             printf("O novo valor do seu salário é %.2f.\n", salariofinal);
+            printf("Parabéns pela graticação!\n");
             break;
         case '2' :
             salariofinal = salarioantigo+salarioantigo*15/100;
             printf("O novo valor do seu salário é %.2f.\n", salariofinal);
+            printf("Parabéns pela graticação!\n");
             break;
         case '3' :
              salariofinal = salarioantigo+salarioantigo*25/100;
             printf("O novo valor do seu salário é %.2f.\n", salariofinal);
+            printf("Parabéns pela graticação!\n");
             break;
         case '4' :
              salariofinal = salarioantigo+salarioantigo*35/100;
             printf("O novo valor do seu salário é %.2f.\n", salariofinal);
+            printf("Parabéns pela graticação!\n");
             break;
         case '5' :
              salariofinal = salarioantigo+salarioantigo*50/100;
             printf("O novo valor do seu salário é %.2f.\n", salariofinal);
+            printf("Parabéns pela graticação!\n");
             break;
         default :
             printf("Opcao invalida\n");

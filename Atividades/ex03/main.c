@@ -17,17 +17,16 @@ int main()
     printf("\nEm Fahrenheit %.0f sera %.2f graus Celsius.\n",f,c);
     printf("Portanto...\n");
 
-    if (c <= 25){
-        printf("TEMPO FRIO\n");
-    }else {
-        if (c >= 50){
-            printf("TEMPO QUENTE\n");
+    if (c <= 20){
+        printf("TEMPO FRIO\n\n\n");
+    }else if (c >= 30){
+            printf("TEMPO QUENTE\n\n");
         }else {
-            printf("TEMPO BOM PARA IR A PRAIA\n");
+            printf("TEMPO BOM PARA IR A PRAIA\n\n");
 
         }
 
-    }
+
 
 
 

@@ -9,9 +9,9 @@ int main()
     char nome[20], nomec[20];
     float valor, fabrica, revendedor, valortotal;
 
-    printf("Lucros no preço dos automóveis de fábrica\n");
+    printf("Lucros no preço dos automóveis de fábrica\n\n\n");
 
-    printf("Qual seu nome? \n");
+    printf("Informe seu nome? \n");
     gets(nome);
     printf("Ok, qual nome do veículo? ");
     gets(nomec);
@@ -23,7 +23,7 @@ int main()
     revendedor = valor*28/100;
     valortotal = valor+fabrica+revendedor;
 
-    printf("\nO automóvel %s ficará no valor final de %.2f!\n",nomec,valortotal);
+    printf("\nO automóvel %s adicionado os impostos ficará no valor final de %.2f!\n",nomec,valortotal);
 
     return 0;
 }

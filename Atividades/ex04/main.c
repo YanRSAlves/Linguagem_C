@@ -19,13 +19,13 @@ int main()
    printf("\n\n\ninforme as informações verídicas para nova retificação!...\n\n\n");
 
    printf("Qual é o seu nome? ");
-   scanf("%s",&nome);
+   gets(nome);
 
    printf("Qual é sua idade? ");
    scanf("%d",&idade);
 
    printf("Qual é o seu cargo? ");
-   scanf("%s",&cargo);
+   scanf(" %s", cargo);
 
    printf("Qual é o seu Salário? ");
    scanf("%f",&salario_bruto);

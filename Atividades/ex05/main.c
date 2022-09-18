@@ -12,12 +12,15 @@ int main()
     int dependentes, horas_de_trabalho;
     float salario, salariofinal, inss, ir, salario_liquido;
 
-    printf("\t\t\tExtrato salarial do mês\n");
+    printf("\t\t\tExtrato salarial do mês\n\n\n");
 
+
+
+    printf("Informe alguns dados pessoais para retirar seu extrato salárial:");
     printf("\nQual o seu nome? ");
     gets(nome);
 
-    printf("\nQuantas horas de trabalho você fez %s? ",nome);
+    printf("\nQuantas horas de trabalho você fez neste mês %s? ",nome);
     scanf("%d",&horas_de_trabalho);
 
     printf("\nQuantos dependentes você tem? ");

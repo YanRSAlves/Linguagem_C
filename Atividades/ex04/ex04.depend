@@ -1,5 +1,7 @@
 # depslib dependency file v1.0
-1663294833 source:c:\users\alves\documents\estudos html5, css3, javascript e c\linguagem c\linguagem_c\atividades\ex04\main.c
+1663518468 source:c:\users\alves\documents\estudos html5, css3, javascript e c\linguagem c\linguagem_c\atividades\ex04\main.c
 	<stdio.h>
 	<stdlib.h>
+	<locale.h>
+	<math.h>
 
