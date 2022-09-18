@@ -9,7 +9,8 @@ int main()
 
 
 
-    float nota1, nota2, nota3, nota4, media,EX, nfim;
+    float nota1, nota2, nota3, nota4;
+    float media, EX, nfim;
 
     printf("\t\t\tCALCULO DE MEDIA PONDERADA\n\n\n");
 
@@ -26,26 +27,24 @@ int main()
         printf("Aluno foi aprovado\n");
         return 0;
 
-    }else {
-        if (media < 5) {
+    }else if (media < 5) {
             printf("Aluno foi reprovado");
             return 0;
-        }else {
-            if (media >=5 && media < 7) {
+        }else if (media >=5 && media < 7) {
                 printf("Você nao atingiu a nota necessária, qual foi sua nota do exame? ");
                 scanf("%f",&EX);
-                nfim = (media+EX)/2;
+
             }
-        }
-    }
+
+
+    nfim = (media+EX)/2;
 
     if (nfim >= 7){
         printf("Aluno aprovado\n");
-    }else {
-        if (nfim < 7){
+    }else if (nfim < 7){
             printf("Aluno reprovado\n");
         }
-    }
+
 
 
 
