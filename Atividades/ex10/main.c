@@ -18,18 +18,21 @@ int main()
     printf("Digite as quatro notas: ");
     scanf("%f%f%f%f", &nota1, &nota2, &nota3, &nota4);
 
-    media = (nota1 * 2 + nota2 * 3 + nota3 * 4 + nota4 * 1) / 10
+    media = (nota1 * 2 + nota2 * 3 + nota3 * 4 + nota4 * 1) / 10;
     printf("Media ponderada: %.2f\n", media);
 
 
     if (media >= 7) {
         printf("Aluno foi aprovado\n");
+        return 0;
+
     }else {
         if (media < 5) {
             printf("Aluno foi reprovado");
+            return 0;
         }else {
             if (media >=5 && media < 7) {
-                printf("Qual foi sua nota do exame? ");
+                printf("Você nao atingiu a nota necessária, qual foi sua nota do exame? ");
                 scanf("%f",&EX);
                 nfim = (media+EX)/2;
             }
@@ -39,7 +42,9 @@ int main()
     if (nfim >= 7){
         printf("Aluno aprovado\n");
     }else {
-        printf("Aluno reprovado\n");
+        if (nfim < 7){
+            printf("Aluno reprovado\n");
+        }
     }
 
 
