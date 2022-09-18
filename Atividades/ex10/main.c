@@ -16,7 +16,7 @@ int main()
 
 
 
-    printf("Digite  quatro notas, cada uma  de 0 a 10: ");
+    printf("Digite quatro notas, cada uma  de 0 a 10: ");
     scanf("%f%f%f%f", &nota1, &nota2, &nota3, &nota4);
 
     media = (nota1 * 2 + nota2 * 3 + nota3 * 4 + nota4 * 1) / 10;
@@ -28,21 +28,22 @@ int main()
         return 0;
 
     }else if (media < 5) {
-            printf("Média menor que 5\nAluno foi reprovado");
+            printf("Média menor que 5\nAluno foi reprovado\n");
             return 0;
         }else if (media >=5 && media < 7) {
-                printf("Você chegou perto de ser aprovado, qual foi sua nota do exame? ");
+                printf("Você chegou perto de ser aprovado, qual foi sua nota do exame? \n\n");
                 scanf("%f",&EX);
 
             }
 
 
     nfim = (media+EX)/2;
+    printf("Nova média ponderada: %.2f\n", nfim);
 
     if (nfim >= 7){
-        printf("Nova média maior ou igual a 7\nAluno aprovado\n");
+        printf("Nova média maior ou igual a 7.\nAluno aprovado\n\n");
     }else if (nfim < 7){
-            printf("Mesmo com a nota do exame você não atingiu a média\nAluno reprovado\n");
+            printf("Mesmo com a nota do exame você não atingiu a média.\nAluno reprovado\n\n");
         }
 
 
