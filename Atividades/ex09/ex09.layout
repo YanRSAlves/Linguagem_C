@@ -7,4 +7,5 @@
 			<Cursor1 position="39" topLine="0" />
 		</Cursor>
 	</File>
+	<Target name="Release" top="" />
 </CodeBlocks_layout_file>
