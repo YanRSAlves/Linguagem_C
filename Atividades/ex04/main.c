@@ -45,20 +45,5 @@ int main()
    printf("\nSalário Líquido é: %.2f.\n\n",salario_liquido);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     return 0;
 }
